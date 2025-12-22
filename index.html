@@ -7530,16 +7530,6 @@ a.anchor-link {
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=4fe24f60">
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6057b254">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="1.-Load-Data">1. Load Data<a class="anchor-link" href="#1.-Load-Data">¶</a></h2>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=4061ba48">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -7978,7 +7968,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="2.-Exploratory-Data-Analysis">2. Exploratory Data Analysis<a class="anchor-link" href="#2.-Exploratory-Data-Analysis">¶</a></h2><h3 id="%F0%9F%93%8A-Visualizing-the-Imbalance">📊 Visualizing the Imbalance<a class="anchor-link" href="#%F0%9F%93%8A-Visualizing-the-Imbalance">¶</a></h3><p>The bar chart below vividly demonstrates the difficulty of this problem. The tiny sliver representing 'Fraud' (Class 1) is barely visible against the tower of 'Normal' transactions (Class 0). This visual confirms why we cannot rely on raw accuracy alone.</p>
+<h2 id="%F0%9F%93%8A-The-Challenge:-Extreme-Class-Imbalance">📊 The Challenge: Extreme Class Imbalance<a class="anchor-link" href="#%F0%9F%93%8A-The-Challenge:-Extreme-Class-Imbalance">¶</a></h2><p>The bar chart below vividly demonstrates the difficulty of this problem. The tiny sliver representing 'Fraud' (Class 1) is barely visible against the tower of 'Normal' transactions (Class 0). This visual confirms why we cannot rely on raw accuracy alone.</p>
 </div>
 </div>
 </div>
@@ -8002,38 +7992,8 @@ Fraud percentage: 0.1727%
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=190e31e6">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3.-Preprocessing">3. Preprocessing<a class="anchor-link" href="#3.-Preprocessing">¶</a></h2><p>We need to scale the 'Amount' column. 'Time' will be dropped as it's not directly indicative without feature engineering.</p>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=11ac70c4">
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ac3c2974">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="4.-Train/Test-Split">4. Train/Test Split<a class="anchor-link" href="#4.-Train/Test-Split">¶</a></h2>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=dfb464ad">
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e61d69af">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="5.-Handling-Imbalance-(SMOTE)">5. Handling Imbalance (SMOTE)<a class="anchor-link" href="#5.-Handling-Imbalance-(SMOTE)">¶</a></h2><p>We apply SMOTE only to the training data to avoid data leakage.</p>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput" id="cell-id=a62ff0a9">
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
@@ -8050,16 +8010,6 @@ After OverSampling count of '0': 227451
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c4148184">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="6.-Model-Training-(Random-Forest)">6. Model Training (Random Forest)<a class="anchor-link" href="#6.-Model-Training-(Random-Forest)">¶</a></h2>
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput" id="cell-id=ee02fe76">
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9b08bc8c">
@@ -8067,7 +8017,7 @@ After OverSampling count of '0': 227451
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="7.-Evaluation">7. Evaluation<a class="anchor-link" href="#7.-Evaluation">¶</a></h2><h3 id="%F0%9F%94%8D-Interpreting-the-Results">🔍 Interpreting the Results<a class="anchor-link" href="#%F0%9F%94%8D-Interpreting-the-Results">¶</a></h3><h4 id="1.-Confusion-Matrix">1. Confusion Matrix<a class="anchor-link" href="#1.-Confusion-Matrix">¶</a></h4><p>This heatmap acts as our scoreboard.</p>
+<h2 id="%F0%9F%94%8D-Model-Performance">🔍 Model Performance<a class="anchor-link" href="#%F0%9F%94%8D-Model-Performance">¶</a></h2><h3 id="Confusion-Matrix">Confusion Matrix<a class="anchor-link" href="#Confusion-Matrix">¶</a></h3><p>This heatmap acts as our scoreboard.</p>
 <ul>
 <li><strong>Bottom-Right (True Positive)</strong>: These are the fraud cases we successfully caught. Maximizing this number is our priority.</li>
 <li><strong>Bottom-Left (False Negative)</strong>: These are the ones that got away. We want this to be as close to zero as possible.</li>
@@ -8110,7 +8060,7 @@ Matthews Correlation Coefficient: 0.8482043898300785
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="2.-ROC-AUC-Curve">2. ROC-AUC Curve<a class="anchor-link" href="#2.-ROC-AUC-Curve">¶</a></h4><p>The Receiver Operating Characteristic (ROC) curve plots the True Positive Rate against the False Positive Rate at various threshold settings. An Area Under the Curve (AUC) of <strong>1.0</strong> represents a perfect model. Our curve closely hugging the top-left corner indicates excellent diagnostic ability.</p>
+<h3 id="ROC-AUC-Curve">ROC-AUC Curve<a class="anchor-link" href="#ROC-AUC-Curve">¶</a></h3><p>The Receiver Operating Characteristic (ROC) curve plots the True Positive Rate against the False Positive Rate at various threshold settings. An Area Under the Curve (AUC) of <strong>1.0</strong> represents a perfect model. Our curve closely hugging the top-left corner indicates excellent diagnostic ability.</p>
 </div>
 </div>
 </div>
@@ -8132,7 +8082,7 @@ Matthews Correlation Coefficient: 0.8482043898300785
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h4 id="3.-Precision-Recall-Curve">3. Precision-Recall Curve<a class="anchor-link" href="#3.-Precision-Recall-Curve">¶</a></h4><p>For highly imbalanced datasets like fraud detection, this is the most critical chart. It specifically evaluates how well we identify the rare positive class (Fraud).</p>
+<h3 id="Precision-Recall-Curve">Precision-Recall Curve<a class="anchor-link" href="#Precision-Recall-Curve">¶</a></h3><p>For highly imbalanced datasets like fraud detection, this is the most critical chart. It specifically evaluates how well we identify the rare positive class (Fraud).</p>
 <ul>
 <li><strong>High Recall</strong>: We are finding the fraud.</li>
 <li><strong>High Precision</strong>: We aren't crying wolf.
