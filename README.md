@@ -16,8 +16,9 @@ A machine learning project that tackles the challenge of detecting fraudulent cr
 
 | Audience | Document |
 |----------|----------|
-| **Non-Technical** | [Executive Summary](summary_report.md) — Key findings and business insights |
-| **Technical** | [Analysis Notebook](analysis.ipynb) — Full code, models, and visualizations |
+| **Non-Technical** | [Executive Summary](summary_report.md) – Key findings and business insights |
+| **Technical** | [Analysis Notebook](analysis.ipynb) – Full code, models, and visualizations |
+| **Live Demo** | [GitHub Pages](https://rashad1019.github.io/imbalanced-learn/) – Interactive project showcase |
 
 ---
 
